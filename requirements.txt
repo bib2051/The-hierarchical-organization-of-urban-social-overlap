@@ -1,0 +1,17 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+jupyter
+
+# Fig. 3(b): power-law tail fit
+powerlaw
+
+# Basemaps of the maps
+contextily
+
+# Residential centres and catchment efficiency (Table II, Fig. 6): WorldPop step
+geopandas
+shapely
+rasterio
