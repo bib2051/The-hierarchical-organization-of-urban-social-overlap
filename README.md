@@ -34,12 +34,12 @@ repository. The population raster is the WorldPop UN-adjusted population count f
 
 | File | Content | Used for |
 |---|---|---|
-| `unified_social_metrics_<City>.csv` | `metric_type, antenna1, lat1, long1, antenna2, lat2, long2, value` | everything |
+| `3_unified_social_metrics_<City>.csv` | `metric_type, antenna1, lat1, long1, antenna2, lat2, long2, value` | everything |
 | `Mobility_hotspots/hotspots_loubar_<City>.csv` | `antenna, activity_volume` | mobility centres (Table I, Supplementary Figs. 6–7) |
 | `Mobility_hierarchy/hierarchical_flow_<City>.txt` | Φ of the mobility network, written by `mobility_hierarchy.py` | Fig. 5 |
 | `bra-ppp-2016-UNadj.tif` | WorldPop population counts, UN-adjusted | residential centres and η (Table II, Fig. 6) |
 
-In `unified_social_metrics_<City>.csv`, rows with `metric_type = colocation` hold the
+In `3_unified_social_metrics_<City>.csv`, rows with `metric_type = colocation` hold the
 colocation of `antenna1` in `value` (one row per antenna); rows with
 `metric_type = co-connectedness` hold the co-connectedness of the pair (`antenna1`, `antenna2`).
 
