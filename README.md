@@ -10,7 +10,7 @@ Code for the figures and tables of
 
 | File | Purpose |
 |---|---|
-| `reproduce_figures.ipynb` | Figs. 3–6, Tables I–II and Supplementary Figs. 5–8, from the co-presence overlap networks |
+| `reproduce_figure_code.ipynb` | Figs. 3–6, Tables I–II and Supplementary Figs. 5–8, from the co-presence overlap networks |
 | `mobility_hierarchy.py` | Hierarchy Φ of the mobility network of each city, from the raw call detail records (input of Fig. 5) |
 
 Figs. 1 and 2 are schematics. Supplementary Fig. 3 is section 3 of the notebook run on the
@@ -22,7 +22,7 @@ Python 3.9 or later.
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook reproduce_figures.ipynb
+jupyter notebook reproduce_figure_code.ipynb
 ```
 
 ## Data
